@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{D500
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OgrenciTakip.DAL", "OgrenciTakip.DAL\OgrenciTakip.DAL.csproj", "{157F715D-2ECF-4488-9D7D-357E7C8F2A17}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{CCD3212C-A52A-4478-BB4C-8F98C99937C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OgrenciTakip.UI", "OgrenciTakip.UI\OgrenciTakip.UI.csproj", "{2CF01419-2ED7-4306-A60A-718707E38098}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{157F715D-2ECF-4488-9D7D-357E7C8F2A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{157F715D-2ECF-4488-9D7D-357E7C8F2A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{157F715D-2ECF-4488-9D7D-357E7C8F2A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF01419-2ED7-4306-A60A-718707E38098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF01419-2ED7-4306-A60A-718707E38098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF01419-2ED7-4306-A60A-718707E38098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF01419-2ED7-4306-A60A-718707E38098}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{157F715D-2ECF-4488-9D7D-357E7C8F2A17} = {D5005DA9-EFE3-4DD5-928F-3F2F8D050EB4}
+		{2CF01419-2ED7-4306-A60A-718707E38098} = {CCD3212C-A52A-4478-BB4C-8F98C99937C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CEECC4D7-499F-424E-89DC-113577D821AF}
