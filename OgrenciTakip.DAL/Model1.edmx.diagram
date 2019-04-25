@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="abfe7dd7536d4c8e982155e74fe1b835" Name="Diagram1">
+        <EntityTypeShape EntityType="OgrenciTakipDBModel.Kategori" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OgrenciTakipDBModel.Ogrenci" Width="1.5" PointX="5.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OgrenciTakipDBModel.Ogretmen" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="OgrenciTakipDBModel.OgretmenUzmanlik" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="OgrenciTakipDBModel.Sinif" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OgrenciTakipDBModel.SinifOgrenci" Width="1.5" PointX="7.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OgrenciTakipDBModel.SinifUzmanlik" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="OgrenciTakipDBModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OgrenciTakipDBModel.Uzmanlik" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OgrenciTakipDBModel.Zumre" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="OgrenciTakipDBModel.FK_Kategori_Kategori1" ManuallyRouted="false" />
+        <AssociationConnector Association="OgrenciTakipDBModel.FK_SinifOgrenci_Ogrenci" ManuallyRouted="false" />
+        <AssociationConnector Association="OgrenciTakipDBModel.FK_Ogretmen_Zumre" ManuallyRouted="false" />
+        <AssociationConnector Association="OgrenciTakipDBModel.FK_OgretmenUzmanlik_Ogretmen" ManuallyRouted="false" />
+        <AssociationConnector Association="OgrenciTakipDBModel.FK_OgretmenUzmanlik_Uzmanlik" ManuallyRouted="false" />
+        <AssociationConnector Association="OgrenciTakipDBModel.FK_SinifUzmanlik_OgretmenUzmanlik" ManuallyRouted="false" />
+        <AssociationConnector Association="OgrenciTakipDBModel.FK_SinifOgrenci_Sinif" ManuallyRouted="false" />
+        <AssociationConnector Association="OgrenciTakipDBModel.FK_SinifUzmanlik_Sinif" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
