@@ -1,0 +1,8 @@
+Sql T-SQL Sorgusu Örneði:
+
+select S.SinifAdi,o.AdiSoyadi from Sinif s
+join SinifOgrenci  so
+on s.SinifID =so.SinifID
+join Ogrenci o
+on so.OgrenciID =o.OgrenciID
+
