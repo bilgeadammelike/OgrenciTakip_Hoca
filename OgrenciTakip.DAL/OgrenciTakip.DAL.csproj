@@ -92,6 +92,7 @@
     <Compile Include="Uzmanlik.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel\OgrenciVM.cs" />
     <Compile Include="Zumre.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
